@@ -162,7 +162,7 @@ let inputsKeys = [
 let inputs = [
   config.protocols.http.mocks_dir,
   config.protocols.ws.mocks_dir,
-  config.protocols.http.port,
+  process.env.PORT,
   config.protocols.http.enable,
   config.protocols.https.enable,
   config.protocols.http2.enable,
