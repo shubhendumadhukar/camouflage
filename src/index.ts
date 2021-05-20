@@ -20,7 +20,7 @@ import swStats from "swagger-stats";
 /**
  * Gets the location of documentation folder
  */
-let ui_root = path.join(child_process.execSync("npm root -g").toString().trim(), "camouflage-server", "public");
+let ui_root = path.join("./public");
 
 // Initialize variables with default values
 let mocksDir = "";
